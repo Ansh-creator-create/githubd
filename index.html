@@ -1,0 +1,70 @@
+
+
+
+<html>
+  <head>
+  <link rel="stylesheet" href="style.css">  
+  <title> Family Book</title>
+  </head>
+  <body>
+    <h1> Family Book</h1>
+    <hr> <hr>
+    <img id="family_img" src="https://www.notimeforflashcards.com/wp-content/uploads/2012/02/The-Family-Book.jpg">
+    <h3 id="one"> Our Family Book</h3>
+     <button type="button" onclick="family()">Next</button>
+<hr>
+   <script>
+   var names=[
+   "1. Gunanand Pratihast",
+   "2. Roshan Pratihast",
+   "3. Shruti Tanwar",
+   "4. Ansh pratihast"
+   ];
+   var images=[
+   "https://scontent.fjai2-1.fna.fbcdn.net/v/t1.6435-9/132629783_397469624896388_4925504542843088055_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=ZjRilNauFa8AX-0Gpmr&_nc_ht=scontent.fjai2-1.fna&oh=e20958715d15f38e5f6afa50d71f254a&oe=60A9F480",
+   "https://media-exp1.licdn.com/dms/image/C5103AQHqba2iYgaU3g/profile-displayphoto-shrink_800_800/0/1517149774598?e=1624492800&v=beta&t=vYt8hUifggodR6AMeIuySMyn0vmWNZIx0zjqCyfK9tw",
+   "https://media-exp1.licdn.com/dms/image/C5603AQEHKz1MIqKoyA/profile-displayphoto-shrink_800_800/0/1602154258735?e=1624492800&v=beta&t=lYNe6OAUwKHfGniqiQeXrB7HNjBuvPnKzXYE5GGsR7Q",
+   "https://scontent.fjai2-2.fna.fbcdn.net/v/t1.6435-9/93118757_112949997045782_2803245203282984960_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=3kDLv-snmVUAX_7fYUL&_nc_ht=scontent.fjai2-2.fna&oh=f17d76bbb0f45271cf187af3da10c2c4&oe=60AAF3F4"
+ ];
+ var i=0;
+ function family(){
+   document.getElementById("one").innerHTML=names[i];
+   document.getElementById("family_img").src=images[i];
+   i++;
+   if(i==4){
+     i=0;
+   }};
+</script>
+</html>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
